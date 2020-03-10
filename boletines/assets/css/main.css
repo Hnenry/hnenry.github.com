@@ -1,0 +1,188 @@
+/* Color Theme Swatches in Hex */
+.Fendi-Strap-You-Generator-1-hex { color: #2F0459; }
+.Fendi-Strap-You-Generator-2-hex { color: #5C12A6; }
+.Fendi-Strap-You-Generator-3-hex { color: #7F25D9; }
+.Fendi-Strap-You-Generator-4-hex { color: #F2E205; }
+.Fendi-Strap-You-Generator-5-hex { color: #D98E04; }
+
+/* Color Theme Swatches in RGBA */
+.Fendi-Strap-You-Generator-1-rgba { color: rgba(46, 4, 89, 1); }
+.Fendi-Strap-You-Generator-2-rgba { color: rgba(91, 18, 165, 1); }
+.Fendi-Strap-You-Generator-3-rgba { color: rgba(126, 36, 216, 1); }
+.Fendi-Strap-You-Generator-4-rgba { color: rgba(242, 226, 4, 1); }
+.Fendi-Strap-You-Generator-5-rgba { color: rgba(216, 142, 4, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Fendi-Strap-You-Generator-1-hsla { color: hsla(270, 90, 18, 1); }
+.Fendi-Strap-You-Generator-2-hsla { color: hsla(270, 80, 36, 1); }
+.Fendi-Strap-You-Generator-3-hsla { color: hsla(270, 70, 49, 1); }
+.Fendi-Strap-You-Generator-4-hsla { color: hsla(56, 96, 48, 1); }
+.Fendi-Strap-You-Generator-5-hsla { color: hsla(39, 96, 43, 1); }
+
+.container{
+    background: #7F25D9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0459, rgb(85, 37, 217));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0459, rgb(85, 37, 217)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    max-width: 960px;
+    width: 100%;
+    height: 80vh;
+    background-color: whitesmoke;
+    /*box-shadow: diferenciahorizontal diferenciavertical desenfoque apmlitud color;*/
+    box-shadow: 0 3px 6px rgba(0,0,0,0.35), 0 3px 6px rgba(0,0,0,0.70) ;
+    border-radius: 4px;
+    position: relative;
+    overflow: scroll;
+}
+
+.content{
+    padding: 1em;
+}
+td{
+    display: block;
+    width: 100%;
+}
+td:nth-of-type(1){
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+th{
+    display:none;
+}
+
+
+.actions{
+    position: absolute;
+    top:1em;
+    right:1em;
+}
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    display:inline-block;
+    background-color: rgb(231, 93, 1);
+    box-shadow: teal;
+    font-weight: 500;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html{
+    font-family: 'Roboto Slab', serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    color:#7F25D9;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+p {
+    color:blueviolet
+ }
+
+h1 {
+    color: #2F0459;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+    color: #5C12A6;
+}
+
+.table td, .table th{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+    background-color:#f2fa80 ;
+}
+
+.fa-star-half-alt{  
+    color: #D98E04;
+}
+
+.title-item{
+     border-bottom: solid 2px #5C12A6;
+     padding-bottom: 1em;
+     font-size: 2em;
+     text-transform: uppercase;
+}
+
+.address{
+    font-weight: bold;
+    color: #5C12A6;
+    font-size: 1.2em;
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+
+
+.position{
+    background-color: #5C12A6;
+    color:whitesmoke;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+@media (min-height:550px){
+    .content{
+        height: 500px;
+    }
+}
+
+@media (min-width:900px){
+    th{
+        display:table-cell;
+    }
+
+    td{
+        display:table-cell;
+        width: auto;
+    }
+    
+    td:nth-of-type(1){
+        font-size: 1em;
+    }
+    .content{
+        padding: 1.8em;
+    }
+}
