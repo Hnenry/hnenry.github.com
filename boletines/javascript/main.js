@@ -21,7 +21,7 @@ x.forEach(function(link) {
 
 //Dar 6 milisegundos para leer la instrucción de redirección del link         
         setTimeout(() => {
-            location.href="/";
+            location.href="/boletines";
         }, 600);
 
         return false
