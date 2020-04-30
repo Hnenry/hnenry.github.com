@@ -21,7 +21,7 @@ x.forEach(function(link) {
 
 //Dar 6 milisegundos para leer la instrucción de redirección del link         
         setTimeout(() => {
-            location.href="/menu.html";
+            location.href="/menu";
         }, 600);
 
         return false
