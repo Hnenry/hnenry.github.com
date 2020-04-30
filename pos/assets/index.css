@@ -1,0 +1,42 @@
+.container{
+    height: 100vh;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_si{
+    /*position: absolute;
+    top: 150px;
+    right:150px;
+    bottom:150px;
+    left:125px;*/
+    float:center;
+    height:47%;
+    width: 50%;
+}
+
+.content{
+    max-width: 960px;   
+    min-width: 300px;
+    width: 30%;
+    height: 50%;
+    background-color: transparent;
+    border-radius: 15px;
+    float: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    max-width: fit-content;
+    background-color: transparent;
+    border-style: solid;
+}
+
