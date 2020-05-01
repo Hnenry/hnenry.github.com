@@ -17,28 +17,31 @@
     left:125px;*/
     float:center;
     height:47%;
-    width: 50%;
+    width: 60%;
 }
 
 .content{
     max-width: 960px;   
     min-width: 300px;
-    width: 30%;
-    height: 55%;
+    width: 50%;
+    height: 60%;
     background-color: transparent;
     border-radius: 15px;
     float: center;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-around ;
+    align-content: space-around;
     align-items: center;
     justify-content: space-between;
 }
 
-.input{
+input, button{
     max-width: fit-content;
     background-color: transparent;
     border-style: solid;
 }
 
+img{
+    flex-shrink: 2;
+}
