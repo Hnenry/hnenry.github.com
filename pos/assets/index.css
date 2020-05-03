@@ -19,6 +19,7 @@
     height:47%;
     width: 60%;
     max-width: 280px;
+    min-width: 230px;
     flex-shrink: 2;
     box-shadow: 1px #f1f1f1;
 }
