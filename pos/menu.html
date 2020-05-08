@@ -7,11 +7,35 @@
         <link rel="stylesheet" href="./assets/index.css">
         <link rel="stylesheet" href="./assets/animate.css">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </HEAD>
 </html>
-<div class="sidenav">
-    <a href="#">VENTAS</a>
-    <a href="#">ALMACÉN</a>
-    <a href="#">REPORTES</a>
-    <a href="./index.html">SALIR</a>
-  </div>
+<body>
+    <div class="upnav" id="myTopnav">
+        <a href="#" class="active">VENTAS</a>
+        <a href="#">ALMACÉN</a>
+        <a href="#">REPORTES</a>
+        <a href="./index.html">SALIR</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    
+    <div style="padding-left:16px">
+        <h2>Módulo de ventas</h2>
+        <p>Capture las unidades en la siguiente tabla.</p>
+    </div>
+
+    <script>
+ /* Toggle between adding and removing the "responsive" class
+    to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className == "upnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "upnav";
+    }
+  }
+    </script>    
+</body>
