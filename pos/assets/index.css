@@ -160,7 +160,7 @@ img{
   /* When the screen is less than 810 pixels wide, hide all links, except for the first one.
    Show the link that contains should open and close the upnav (.icon) */
 
-  @media screen and (max-width: 810px){
+  @media screen and (max-width: 1440px){
     .upnav a:not(:first-child){
       display: none;
     }
@@ -174,7 +174,7 @@ img{
    This class makes the upnav look good on small screens (display the links vertically instead 
    of horizontally) */
 
-   @media screen and (max-width: 810px){
+   @media screen and (max-width: 1440px){
      .upnav.responsive {position: relative;}
     .upnav.responsive .icon {
       position: absolute;
